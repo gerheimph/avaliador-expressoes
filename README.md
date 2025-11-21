@@ -1,10 +1,10 @@
-📘 Avaliador e Conversor de Expressões – Pós-Fixa ↔ Infixa
+< Avaliador e Conversor de Expressões – Pós-Fixa ↔ Infixa >
 
 Este projeto implementa uma biblioteca em C para converter expressões matemáticas entre notação infixa e pós-fixa, além de avaliar expressões pós-fixas, incluindo funções trigonométricas e logarítmicas.
 
 O trabalho foi desenvolvido seguindo estritamente as especificações fornecidas pelo professor.
 
-✅ Funcionalidades implementadas
+-> Funcionalidades implementadas
 1. Converter expressão infixa para pós-fixa
 
 Usa o algoritmo Shunting Yard (Dijkstra).
@@ -55,7 +55,7 @@ tg(x) (graus)
 
 log(x) (log10)
 
-🧮 Exemplos de Entrada/Saída
+--> Exemplos de Entrada/Saída
 Infixa → Pós-Fixa
 
 Entrada:
@@ -80,14 +80,14 @@ Saída:
 3+2*5
 Valor: 13
 
-📁 Estrutura do Projeto
-📦 avaliador-expressoes
+---> Estrutura do Projeto
+> avaliador-expressoes
  ├── expressao.c      # Implementação completa
  ├── expressao.h      # Cabeçalho fornecido pelo professor (não modificado)
  └── README.md        # Este arquivo
 
 
-⚠️ main.c não deve ser enviado, pois o professor solicitou apenas a biblioteca.
+-> main.c não deve ser enviado, pois o professor solicitou apenas a biblioteca.
 
 🛠 Compilação e uso (para testes locais)
 
@@ -96,7 +96,7 @@ Se quiser testar com um main próprio:
 gcc main.c expressao.c -o app -lm
 ./app
 
-📌 Observações Importantes
+-> Observações Importantes
 
 O arquivo expressao.h foi mantido exatamente como fornecido.
 
@@ -106,7 +106,7 @@ O código trata erros sintáticos e retorna NULL ou 0.0 dependendo da função.
 
 As funções seguem rigorosamente os protótipos exigidos.
 
-👤 Autor
+<-- Autor -->
 
 Trabalho desenvolvido por:
 
