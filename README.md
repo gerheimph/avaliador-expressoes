@@ -80,16 +80,9 @@ Saída:
 3+2*5
 Valor: 13
 
----> Estrutura do Projeto
-> avaliador-expressoes
- ├── expressao.c      # Implementação completa
- ├── expressao.h      # Cabeçalho fornecido pelo professor (não modificado)
- └── README.md        # Este arquivo
-
-
 -> main.c não deve ser enviado, pois o professor solicitou apenas a biblioteca.
 
-🛠 Compilação e uso (para testes locais)
+* Compilação e uso (para testes locais)
 
 Se quiser testar com um main próprio:
 
